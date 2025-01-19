@@ -1,0 +1,88 @@
+body{
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+     width:100%; 
+}
+header button{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    flex: 1;
+     gap: 380px;
+}
+nav ul{
+    display: inline-flex;
+    gap: 3px;
+    padding-left:280px;
+    
+}
+nav ul li {
+    list-style-type: none;
+text-align: center;
+padding-left:50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:25px;
+}
+nav ul li a:hover{
+    transition: 0.3 ease-out;
+    color:blue;
+    border-bottom: 2px solid white;
+}
+.rotate{
+    rotate:-39deg;
+}
+.grid{
+    position: relative;
+    top: 100px;
+    left:50px;
+    display:flex;
+    flex-direction: row;
+    gap:18px;
+}
+
+p{
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1{
+    padding-left: 120px;
+    color: white;
+
+}
+.one:hover{
+    border-bottom: 4px solid white;
+    cursor: pointer;
+}
+.two:hover{
+    border-bottom: 4px solid white;
+    cursor: pointer;
+}
+.three:hover{
+    border-bottom: 4px solid white;
+    cursor: pointer;
+}
+.four:hover{
+    border-bottom: 4px solid white;
+    cursor: pointer;
+}
